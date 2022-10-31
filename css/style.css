@@ -1,0 +1,268 @@
+.title{
+    background-image:url(../assets/maptable.JPG);
+    
+    height: 100vh;
+    weight: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: rosella-inline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#4d080f; 
+    font-size:x-large ;
+    text-indent: 30px;
+
+
+}
+
+
+
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #a8905f;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #7a2837;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #D4CFC3;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image:
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #ebd122;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    height: 100%;
+    width: 100%;
+    align: center;
+    
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    text-align: left;
+    font-family:'O';
+    font-style: normal;
+    font-weight: 2000;
+    color: #593c32;
+}
+
+a {
+    color:#4d080f;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+.row{
+    margin-top: 125px;
+}
+.index-link{
+    font-family: operetta-18, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+    color:#4d080f;
+
+}
+
+body {
+
+    font-size: 20px;
+    font-family: operetta-32, serif;
+    font-style: normal;
+    font-weight: 200;
+    background-color:#ccc8bc;
+    color: #242424;
+}
+
+.title-class {
+    margin-top: calc(50vh - 200px);
+    text-align: center;
+
+}
+.africaimage{
+    height: 500px;
+    width: 350px;
+    margin-left: 350px;
+  
+}
+@media only screen and (max-width: 1250px) {
+    .africaimage {
+      margin-left:100px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .africaimage {
+      margin-left:auto;
+    }
+  }
+  @media only screen and (max-width: 572px) {
+    .africaimage {
+        
+        margin-left:auto;
+      }
+  }
+.fluid-container{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.portfolio-title{
+    text-align: center;
+}
+.portfolio-description{
+    text-align: center;
+}
+#barcolor{
+    background-color: #8b6f57;
+}
+#landuse{
+    margin-left: 300px;
+}
+
+#landuseimage{
+    margin-left: 200px;
+
+}
+
+#pnwimage{
+    height: 250%;
+    width: 250%;
+    padding-bottom: 50px;
+    
+
+}
+
+#pacificnorthwest{
+margin-left: 450px;
+}
+
+.mapstatement{
+    text-align: center;
+    font-family: operetta-12, serif;
+    font-style: normal;
+    font-weight: 200;
+    padding-top: 75px;
+    color:#593c32
+
+    
+}
+
+#abouttext{
+    align:left; 
+    font-family: operetta-12, serif;
+    font-style: normal;
+    font-weight: 200;
+    color:#593c32
+    
+}
+h3{
+    color:#452d13 
+}
+h1{
+    color:#4d080f
+}
+h2{
+    color:#593c32
+}
+h5{
+    color:#593c32
+}
+h4{
+    color:#593c32
+}
+h6{
+    color:#593c32
+}
+li{
+    color:#593c32
+}
