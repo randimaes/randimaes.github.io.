@@ -73,7 +73,6 @@
 /*** JUMBOTRON ***/
 
 .jumbotron {
-    background-image:
     text-align: center;
     color: #fff;
     padding: 3%;
@@ -202,6 +201,11 @@ body {
 .portfolio-description{
     text-align: center;
 }
+
+.portfolio-item {
+    margin-top: 25px;
+}
+
 #barcolor{
     background-color: #8b6f57;
 }
