@@ -104,7 +104,6 @@
 /*** Basic Text Styles ***/
 
 #about-world {
-    height: 100%;
     width: 100%;
     align: center;
     
@@ -138,14 +137,13 @@ a:hover {
 
 .container{
     padding:25px 0;
-    margin-left: 60px;
     margin-right: 100px;
 }
 .row{
     margin-top: 125px;
 }
 .index-link{
-    font-family: operetta-18, serif;
+    font-family: informapro,sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: large;
@@ -155,8 +153,8 @@ a:hover {
 
 body {
 
-    font-size: 20px;
-    font-family: operetta-32, serif;
+    font-family: informapro,sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-weight: 200;
     background-color:#ccc8bc;
@@ -231,19 +229,19 @@ margin-left: 450px;
 }
 
 .mapstatement{
-    text-align: center;
-    font-family: operetta-12, serif;
+    font-family: informapro,sans-serif;
     font-style: normal;
     font-weight: 200;
     padding-top: 75px;
-    color:#593c32
+    color:#593c32;
+    text-align: center;
 
     
 }
 
 #abouttext{
-    align:left; 
-    font-family: operetta-12, serif;
+    align:left;
+    font-family: informapro,sans-serif;
     font-style: normal;
     font-weight: 200;
     color:#593c32
